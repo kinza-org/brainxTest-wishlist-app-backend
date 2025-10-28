@@ -1,0 +1,37 @@
+{
+  "name": "brainxtest-wishlist-app",
+  "version": "1.0.0",
+  "description": "Shopify Customer Wishlist App with backend API and frontend integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "shopify",
+    "wishlist",
+    "ecommerce",
+    "nodejs",
+    "express"
+  ],
+  "author": "BrainX Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/shopify-api": "^8.1.1",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.1.5",
+    "git": "^0.1.5",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
