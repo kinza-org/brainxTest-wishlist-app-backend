@@ -30,7 +30,6 @@ app.use(express.urlencoded({ extended: true }));
 const wishlistRoutes = require('./routes/wishlist');
 // Use routes
 app.use('/api/wishlist', wishlistRoutes);
-app.use('/api', authRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
