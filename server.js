@@ -28,8 +28,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // Import routes
 const wishlistRoutes = require('./routes/wishlist');
-const authRoutes = require('./routes/auth');
-
 // Use routes
 app.use('/api/wishlist', wishlistRoutes);
 app.use('/api', authRoutes);
